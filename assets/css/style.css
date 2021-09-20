@@ -6,6 +6,7 @@
   :root {
     --color1: #ab44ff;
     --color2: #99959c;
+    --color3: #ff44f6;
     --grey: #333;
 }
 
@@ -19,6 +20,10 @@ header p {
     color: var(--tertiary);
     margin: 5px 0 20px;
     font-size: 2rem;
+}
+
+#score-link {
+    color: var(--color3);
 }
 
 main {
@@ -67,6 +72,7 @@ form p {
   }
   
   .btn:hover {
+    background-color: var(--color3);
     box-shadow: 0 2px var(--grey);
     top: -2px;
   }
